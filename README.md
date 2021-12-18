@@ -1,2 +1,2 @@
 # optianal
-.exe
+Statistics and graphics functions
