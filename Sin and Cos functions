@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+import numpy as np
+plt.title(" Fonctions sinus et cosinus")
+plt.grid(True)
+x=np.linspace(1,5,200)
+F1 = 5*np.sin(2*x*np.pi)
+F2 = 5*np.cos(2*x*np.pi)
+plt.plot(F1,"b--",linewidth=0.8,marker="*",label="Fonction Sin")
+plt.plot(F2,"g--",linewidth=0.8,marker="+", label="Fonction Cos")
+plt.xlabel('temps ')
+plt.ylabel('Gain')
+plt.legend()
+plt.show()
